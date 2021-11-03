@@ -7,7 +7,7 @@ public class Caneta {
 	int carga;
 	boolean tampada;
 	
-	void status( ) {
+	void status() {
 		System.out.println("Uma caneta " + this.cor);
 		System.out.println("Está tampada? "+ this.tampada);
 		System.out.println("A carga da caneta é de " + this.carga + "%");
