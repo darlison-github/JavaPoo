@@ -12,7 +12,7 @@ public class MyLovis {
 		c1.localidade = "Eterno Tropa";
 		c1.qualidade = "Cagar e comer";
 		c1.sorriso = "Lindissimo";
-		c1.feia();
+		c1.bonita();
 		c1.linda();
 		c1.status();
 		
