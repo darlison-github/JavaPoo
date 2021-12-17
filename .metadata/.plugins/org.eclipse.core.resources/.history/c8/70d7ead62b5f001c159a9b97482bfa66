@@ -1,0 +1,13 @@
+package aula2refazendp;
+
+public class Caneeta {
+
+	public static void main(String[] args) {
+		
+		Caneta c1 = new caneta();
+		c1.cor = "azul";
+		c1.ponta = 0.8f;
+		
+	}
+
+}

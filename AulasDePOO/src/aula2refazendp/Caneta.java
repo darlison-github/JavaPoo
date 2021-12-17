@@ -1,13 +1,41 @@
 package aula2refazendp;
 
-import java.util.Scanner;
-
 public class Caneta {
+		
+		String modelo;
+		String cor;
+		float ponta;
+		int carga;
+		boolean tampada;
+		
+		void status() {
+			System.out.println("Uma caneta da cor " + this.cor);
+			System.out.println("Modelo " + this.modelo);
+			System.out.println("Está tampada? " + this.tampada);
+			System.out.println("A ponta da caneta é " + this.ponta);
+			System.out.println("A carga da caneta é de " + this.carga + "%");
+		}
 
-	public static void main(String[] args) {
+		void rabiscar() {
+			if (tampada == true) {
+				System.out.println("Erro! não posso rabiscar");
+			}else{
+				System.out.println("Pronto, pode rabiscar");
+			}
+			
+			
+		}
 		
-		Scanner tec = new Scanner(System.int);
+		void tampar() {
+			
+			this.tampada = true;
+			
+		}
 		
+		void destampar() {
+			this.tampada = false;
+			
 	}
 
-}
+ }
+
