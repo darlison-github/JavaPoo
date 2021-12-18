@@ -3,7 +3,7 @@ package aula2refazendp;
 public class Caneta {
 		
 		String modelo;
-		String cor;
+		public String cor;
 		float ponta;
 		int carga;
 		boolean tampada;
