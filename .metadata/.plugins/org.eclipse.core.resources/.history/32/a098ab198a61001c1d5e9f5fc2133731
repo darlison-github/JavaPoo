@@ -1,0 +1,20 @@
+package aula04;
+
+public class Caneta {
+
+	public String modelo;
+	private float ponta;
+
+	public void getModelo() {
+		return modelo;
+	}
+
+	public void setModelo(m: String) {
+		modelo = m;
+	}
+	
+	public void setPonta(p:float) {
+		return ponta;
+	}
+}
+

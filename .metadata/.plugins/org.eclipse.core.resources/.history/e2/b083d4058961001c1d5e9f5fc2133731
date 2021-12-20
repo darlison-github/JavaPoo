@@ -1,0 +1,8 @@
+package aula04;
+public class Caneta {
+	
+	public modelo = String;{
+		
+	}
+
+}
