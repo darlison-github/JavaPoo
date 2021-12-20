@@ -1,0 +1,9 @@
+package praticando2;
+public class Celular {
+	
+	public static void main(String[] args) {
+		Celular c1 = new Celular("LG", "preto", 64, 4, "4.4 mghz", 22f, true);
+				
+
+	}
+}

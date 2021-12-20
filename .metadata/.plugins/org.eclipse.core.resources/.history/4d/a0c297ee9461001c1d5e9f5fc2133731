@@ -1,0 +1,10 @@
+package praticando2;
+public class CelularMetodos {
+	
+	private String marca;
+	private String cor;
+	private float diametro;
+	
+	
+
+}
