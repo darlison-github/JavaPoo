@@ -1,0 +1,14 @@
+package aula05banco;
+
+public class Conta {
+
+	public static void main(String[] args) {
+		ContaBanco p1 = new ContaBanco();
+		p1.setNumConta(1551);
+		p1.setDono("Darlison Henrique");
+		p1.setSaldo();
+		p1.estadoAtual();
+		p1.abrirConta("CC");
+	}
+
+}

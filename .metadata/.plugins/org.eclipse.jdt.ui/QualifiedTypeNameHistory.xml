@@ -5,8 +5,14 @@
     <fullyQualifiedTypeName name="naLuiza.AtributosDeNalu"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.xml.crypto.dsig.spec.C14NMethodParameterSpec"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="aula2refazendp.Caneta"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.management.modelmbean.ModelMBeanOperationInfo"/>
+    <fullyQualifiedTypeName name="aula04.Caneta"/>
+    <fullyQualifiedTypeName name="praticando2.Celular"/>
+    <fullyQualifiedTypeName name="praticando2.CelularMetodos"/>
+    <fullyQualifiedTypeName name="javax.annotation.processing.SupportedSourceVersion"/>
+    <fullyQualifiedTypeName name="aula05banco.ContaBanco"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,9 @@
+package aula05banco;
+
+public class Conta {
+
+	public static void main(String[] args) {
+		ContaBanco c1 = new ContaBanco(0, null, null, 0, false);
+	}
+
+}

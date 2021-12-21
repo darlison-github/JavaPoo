@@ -1,0 +1,10 @@
+package aula05banco;
+
+public class Conta {
+
+	public static void main(String[] args) {
+		ContaBanco c1 = new ContaBanco(0000, "", "Conta corrente", 0000, false);
+		c1.status();
+	}
+
+}
