@@ -1,0 +1,16 @@
+package aula06aEncapsulamento;
+public interface Controlador {
+
+	public default void ligar() {
+		
+	}
+	
+	public default void desligar() {
+		
+	}
+	
+	public default void abrirMenu() {
+		
+	}
+	
+}

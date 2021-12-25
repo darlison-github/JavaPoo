@@ -16,8 +16,10 @@ public class Conta {
 		p1.depositar(200);
 		p2.depositar(200);
 		
-		p1.sacar(400);
+		p1.sacar(350);
 		p2.sacar(100);
+		
+		p1.fecharConta();
 		
 		p1.estadoAtual();
 		p2.estadoAtual();

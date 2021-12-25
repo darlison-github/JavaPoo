@@ -15,4 +15,6 @@
     <fullyQualifiedTypeName name="praticando2.CelularMetodos"/>
     <fullyQualifiedTypeName name="javax.annotation.processing.SupportedSourceVersion"/>
     <fullyQualifiedTypeName name="aula05banco.ContaBanco"/>
+    <fullyQualifiedTypeName name="aula06aEncapsulamento.Controlador"/>
+    <fullyQualifiedTypeName name="aula06aEncapsulamento.ControleRemoto"/>
 </qualifiedTypeNameHistroy>

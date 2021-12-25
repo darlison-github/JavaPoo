@@ -1,0 +1,7 @@
+package aula06aEncapsulamento;
+public interface Controlador {
+
+	public void ligar() {
+		
+	}
+}
