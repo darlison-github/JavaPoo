@@ -1,0 +1,10 @@
+package aula07a;
+public class Principal {
+	public static void main(String[] args) {
+		
+		 Lutador l = new Lutador("Pretty boy", "França", 31, 1.75f, 68.8f, 11,2 ,1);
+		 
+		
+	}
+
+}

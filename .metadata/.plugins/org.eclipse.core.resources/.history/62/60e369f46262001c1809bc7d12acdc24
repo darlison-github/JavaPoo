@@ -1,9 +1,0 @@
-package aula05banco;
-
-public class Conta {
-
-	public static void main(String[] args) {
-		ContaBanco p1 = new ContaBanco()
-	}
-
-}

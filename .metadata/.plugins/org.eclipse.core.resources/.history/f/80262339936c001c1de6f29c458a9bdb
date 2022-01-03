@@ -1,0 +1,144 @@
+package aula07a;
+
+public class Lutador {
+
+	private String nome;
+	private String nacionalidade;
+	private int idade;
+	private float altura;
+	private float peso;
+	private String categoria;
+	private int vitorias;
+	private int derrotas;
+	private int empates;
+
+	public void contrutor(String no, String naci, int idade, float alt, float pe, int vit, int der, int emp) {
+		setNome(no);
+		setNacionalidade(naci);
+		setAltura(alt);
+		setPeso(pe);
+		setVitorias(vit);
+		setDerrotas(der);
+		setEmpates(emp);
+	}
+
+	public void apresentar() {
+		System.out.println("Lutador " + getNome());
+		System.out.println("Nacionalidade " + getNacionalidade());
+		System.out.println("Idade: " + getIdade());
+		System.out.println("Altura: " + getAltura());
+		System.out.println("Peso: " + getAltura());
+		System.out.println("Categoria " + getCategoria());
+		System.out.println("Nº de vitórias: " + getVitorias());
+		System.out.println("Nº de derrotas:" + getDerrotas());
+		System.out.println("Nº de empates: " + getEmpates());
+
+	}
+
+	public void status() {
+
+	}
+
+	public void ganharLuta() {
+		setVitorias(getVitorias() + 1);
+
+	}
+
+	public void perderLuta() {
+		setDerrotas(getDerrotas() + 1);
+
+	}
+
+	public void empatarLuta() {
+		setEmpates(getEmpates() + 1);
+
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getNacionalidade() {
+		return nacionalidade;
+	}
+
+	public void setNacionalidade(String nacionalidade) {
+		this.nacionalidade = nacionalidade;
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int ida) {
+		this.idade = ida;
+	}
+
+	public float getAltura() {
+		return altura;
+	}
+
+	public void setAltura(float alt) {
+		this.altura = alt;
+	}
+
+	public float getPeso() {
+		return peso;
+	}
+
+	public void setPeso(float pe) {
+		this.peso = pe;
+		setCategoria(categoria);
+	}
+
+	public String getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(String categoria) {
+		if (peso<52.2) {
+			categoria = "Invalido";
+		} else if{ 
+			(peso<=70.3) 
+			categoria = "Leve";
+		} else if {
+			(peso <= 83.9) 
+			categoria = "Médio";
+		} else if {
+			(peso <= 120.2) 
+			categoria = "Pesado";
+			System.out.println("Categoria inválida");
+		this.categoria = categoria;
+		}
+	}
+
+
+	public int getVitorias() {
+		return vitorias;
+	}
+
+	public void setVitorias(int vitorias) {
+		this.vitorias = vitorias;
+	}
+
+	public int getDerrotas() {
+		return derrotas;
+	}
+
+	public void setDerrotas(int derrotas) {
+		this.derrotas = derrotas;
+	}
+
+	public int getEmpates() {
+		return empates;
+	}
+
+	public void setEmpates(int empates) {
+		this.empates = empates;
+	}
+
+}

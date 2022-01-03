@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="javax.xml.crypto.dsig.spec.C14NMethodParameterSpec"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="aula2refazendp.Caneta"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.management.modelmbean.ModelMBeanOperationInfo"/>
     <fullyQualifiedTypeName name="aula04.Caneta"/>
     <fullyQualifiedTypeName name="praticando2.Celular"/>
@@ -17,4 +16,6 @@
     <fullyQualifiedTypeName name="aula05banco.ContaBanco"/>
     <fullyQualifiedTypeName name="aula06aEncapsulamento.Controlador"/>
     <fullyQualifiedTypeName name="aula06aEncapsulamento.ControleRemoto"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="aula07a.Lutador"/>
 </qualifiedTypeNameHistroy>
