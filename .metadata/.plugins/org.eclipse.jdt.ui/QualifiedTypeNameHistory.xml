@@ -18,4 +18,6 @@
     <fullyQualifiedTypeName name="aula06aEncapsulamento.ControleRemoto"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="aula07a.Lutador"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="aula07a.Luta"/>
 </qualifiedTypeNameHistroy>

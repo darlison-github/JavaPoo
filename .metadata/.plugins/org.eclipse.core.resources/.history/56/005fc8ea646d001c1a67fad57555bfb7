@@ -1,0 +1,29 @@
+package aula07a;
+public class Luta extends Lutador{
+
+	public Luta(String no, String naci, int idade, float alt, float pe, int vit, int der, int emp) {
+		super(no, naci, idade, alt, pe, vit, der, emp);
+	}
+
+	private String desafiado;
+	private String desafiante;
+	private int raunds;
+	private String aprovada;
+	
+	public void marcarLuta() {
+		
+	}
+	
+	public void lutar() {
+		
+	}
+
+	public String getDesafiado() {
+		return desafiado;
+	}
+
+	public void setDesafiado(String desafiado) {
+		this.desafiado = desafiado;
+	}
+	
+}

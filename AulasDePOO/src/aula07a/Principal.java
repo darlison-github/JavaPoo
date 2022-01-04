@@ -16,11 +16,21 @@ public class Principal {
 		
 		l[5] = new Lutador("Nerdarte", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
 		 
-		l[3].setPeso(10f);
-		l[3].ganharLuta();
-		l[3].status();
-		l[3].setIdade(25);
-		l[3].apresentar();
+		//l[3].setPeso(10f);
+		//l[3].ganharLuta();
+		//l[3].status();
+		l[0].setIdade(25);
+		l[1].setIdade(31);
+		//l[3].apresentar();
+		
+		Luta UEC01 = new Luta();
+		
+		UEC01.marcarLuta(l[0], l[1]);
+		UEC01.lutar();
+		
+		l[0].status();
+		l[1].status();
+		
 		 
 	}
 
