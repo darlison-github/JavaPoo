@@ -28,10 +28,10 @@ public class Principal {
 		UEC01.marcarLuta(l[5], l[3]);
 		UEC01.lutar();
 		
-		l[5].ganharLuta();
+		l[0].ganharLuta();
 		//l[0].status();
 		l[3].status();
-		l[5].status();
+		l[0].status();
 		
 		 
 	}
